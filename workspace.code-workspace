@@ -18,5 +18,21 @@
         {
             "name": "odatamodel",
             "path": "odatamodel"
+        },
+        {
+            "name": "localization",
+            "path": "localization"
+        },
+        {
+            "name": "customcontrol",
+            "path": "customcontrol"
+        },
+        {
+            "name": "extendcontrol",
+            "path": "extendcontrol"
+        },
+        {
+            "name": "resue",
+            "path": "resue"
         }
     ],"settings":{}}

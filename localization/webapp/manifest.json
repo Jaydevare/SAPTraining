@@ -1,0 +1,45 @@
+{
+    "_version": "1.59.0",
+
+    "sap.app": {
+        "id": "demo.local.localization",
+        "type": "application",
+        "title": "Localization Demo"
+    },
+
+    "sap.ui": {
+        "technology": "UI5"
+    },
+
+    "sap.ui5": {
+
+        "rootView": {
+            "viewName": "demo.local.localization.view.App",
+            "type": "XML",
+            "id": "App",
+            "async": true
+        },
+
+        "dependencies": {
+            "minUI5Version": "1.120.0",
+            "libs": {
+                "sap.m": {}
+            }
+        },
+
+        "models": {
+
+            "i18n": {
+
+                "type": "sap.ui.model.resource.ResourceModel",
+
+                "settings": {
+                    "bundleName": "demo.local.localization.i18n.i18n"
+                }
+
+            }
+
+        }
+
+    }
+}

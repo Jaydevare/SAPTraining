@@ -1,0 +1,27 @@
+<mvc:View
+    controllerName="demo.fragment.resue.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+
+    <App >
+        <Page title="Home Page">
+
+        <content>
+
+            <Text text="Home View" />
+
+            <core:Fragment
+                fragmentName="demo.fragment.resue.fragment.Common"
+                type="XML" />
+
+            <Button
+                text="Go To Second Page"
+                press="onNext" />
+
+        </content>
+
+    </Page>
+    </App>
+
+</mvc:View>
