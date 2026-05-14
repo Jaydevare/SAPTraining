@@ -1,0 +1,25 @@
+{"folders":[
+        {
+            "path": "firstproject"
+        },
+        {
+            "name": "basecalculator",
+            "path": "basecalculator"
+        },
+        {
+            "name": "dynamicbinding",
+            "path": "dynamicbinding"
+        },
+        {
+            "name": "agecalculator",
+            "path": "agecalculator"
+        },
+        {
+            "name": "fragment",
+            "path": "fragment"
+        },
+        {
+            "name": "fragment1",
+            "path": "fragment1"
+        }
+    ],"settings":{}}

@@ -1,0 +1,22 @@
+{"folders":[
+        {
+            "name": "basecalculator",
+            "path": "basecalculator"
+        },
+        {
+            "name": "agecalculator",
+            "path": "agecalculator"
+        },
+        {
+            "name": "dynamicbinding",
+            "path": "dynamicbinding"
+        },
+        {
+            "name": "navigation",
+            "path": "navigation"
+        },
+        {
+            "name": "odatamodel",
+            "path": "odatamodel"
+        }
+    ],"settings":{}}
