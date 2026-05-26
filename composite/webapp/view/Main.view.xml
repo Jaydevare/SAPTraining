@@ -1,0 +1,31 @@
+<mvc:View
+    controllerName="demo.comp.composite.controller.Main"
+
+    xmlns:mvc="sap.ui.core.mvc"
+
+    xmlns="sap.m"
+
+    xmlns:control="demo.comp.composite.control">
+
+    <App>
+
+        <pages>
+
+            <Page title="Machine Monitor Dashboard">
+
+                <content>
+
+                    <control:MachineCard
+                        machineId="MC-1001"
+                        status="Running"
+                        temperature="68°C" />
+
+                </content>
+
+            </Page>
+
+        </pages>
+
+    </App>
+
+</mvc:View>

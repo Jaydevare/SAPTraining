@@ -1,0 +1,39 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+
+    <App>
+
+        <pages>
+
+            <Page title="Machine Composite Control">
+
+                <content>
+
+                    <VBox class="sapUiSmallMargin">
+
+                        <Text
+                            text="Machine ID : {$this>machineId}" />
+
+                        <Text
+                            text="Status : {$this>status}" />
+
+                        <Text
+                            text="Temperature : {$this>temperature}" />
+
+                        <Button
+                            text="Refresh"
+                            type="Emphasized"
+                            press=".onRefreshPress" />
+
+                    </VBox>
+
+                </content>
+
+            </Page>
+
+        </pages>
+
+    </App>
+
+</core:FragmentDefinition>

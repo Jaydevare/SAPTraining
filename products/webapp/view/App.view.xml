@@ -1,0 +1,102 @@
+<mvc:View controllerName="demo.prod.products.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app">
+            <Page title="Product CRUD Operations">
+
+        <content>
+
+            <VBox class="sapUiSmallMargin">
+
+                <Input
+                    id="productId"
+                    placeholder="Product ID" />
+
+                <Input
+                    id="productName"
+                    placeholder="Product Name" />
+
+                <Input
+                    id="price"
+                    type="Number"
+                    placeholder="Price" />
+
+                <Input
+                    id="currency"
+                    placeholder="Currency" />
+
+                <HBox class="sapUiSmallMarginTop">
+
+                    <Button
+                        text="Submit"
+                        type="Emphasized"
+                        press="onSubmit" />
+
+                    <Button
+                        text="Cancel"
+                        class="sapUiTinyMarginBegin"
+                        press="onCancel" />
+
+                </HBox>
+
+   <Table
+                    id="productTable"
+                    class="sapUiSmallMarginTop"
+                    items="{/ZI_PRODUCT_014}">
+
+                    <columns>
+                        <Column>
+                            <Text text="Product ID" />
+                        </Column>
+
+                        <Column>
+                            <Text text="Product Name" />
+                        </Column>
+
+                        <Column>
+                            <Text text="Price" />
+                        </Column>
+
+                        <Column>
+                            <Text text="Currency" />
+                        </Column>
+
+                        <Column>
+                            <Text text="Actions" />
+                        </Column>
+                    </columns>
+
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="{product_id}" />
+                                <Text text="{product_name}" />
+                                <Text text="{price}" />
+                                <Text text="{currency}" />
+ <HBox>
+                                    <Button
+                                        text="Edit"
+                                        type="Attention"
+                                        press="onEdit" />
+
+                                    <Button
+                                        text="Delete"
+                                        type="Reject"
+                                        class="sapUiTinyMarginBegin"
+                                        press="onDelete" />
+                                </HBox>
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+
+                </Table>
+
+            </VBox>
+
+        </content>
+
+    </Page>
+
+    </App>
+</mvc:View>

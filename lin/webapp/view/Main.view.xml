@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="demo.lib.lin.controller.Main"
+
+    xmlns:mvc="sap.ui.core.mvc"
+
+    xmlns="sap.m">
+
+    <App>
+
+        <pages>
+
+            <Page title="Library Demo">
+
+                <content>
+
+                    <Button
+                        text="Run Library Logic"
+                        press="onRefresh" />
+
+                </content>
+
+            </Page>
+
+        </pages>
+
+    </App>
+
+</mvc:View>

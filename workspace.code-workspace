@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6af7a00 (last)
 {"folders":[
         {
             "name": "basecalculator",
@@ -35,4 +39,11 @@
             "name": "resue",
             "path": "resue"
         }
+<<<<<<< HEAD
     ],"settings":{}}
+=======
+    ],"settings":{}}
+=======
+{"folders":[{"path":"products"}],"settings":{}}
+>>>>>>> f62be8e (fourth commit)
+>>>>>>> 6af7a00 (last)
